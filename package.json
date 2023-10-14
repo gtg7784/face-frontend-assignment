@@ -30,5 +30,9 @@
   "dependencies": {
     "ts-node": "^10.9.1",
     "yarn": "^1.22.19"
+  },
+  "resolutions": {
+    "styled-components": "^6",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   }
 }
