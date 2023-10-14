@@ -46,3 +46,4 @@ packages/*/build
 .DS_Store
 concise-report/
 html-report/
+lerna-debug.log
