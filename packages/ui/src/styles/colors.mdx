@@ -1,0 +1,22 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import { theme } from './theme';
+
+<Meta title="Foundation/Colors" />
+
+<ColorPalette>
+  {Object.keys(theme.colors).map((name) =>
+    typeof theme.colors[name] === 'string' ? (
+      <ColorItem key={name} title={name} colors={{ [name]: theme.colors[name] }} />
+    ) : (
+      <ColorItem
+        key={name}
+        title={name}
+        colors={Object.keys(theme.colors[name])
+          .map((level) => ({
+            [level]: theme.colors[name][level],
+          }))
+          .reduce((acc, cur) => ({ ...acc, ...cur }), {})}
+      />
+    )
+  )}
+</ColorPalette>

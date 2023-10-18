@@ -1,0 +1,28 @@
+{/* Typography.mdx */}
+
+import { Meta, Typeset } from '@storybook/blocks';
+
+<Meta title="Foundation/Typography" />
+
+export const typography = {
+  type: {
+    primary: `'Inter', sans-serif`,
+  },
+};
+
+export const SampleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+# Typography
+
+**Font:** Inter
+
+## Body
+
+**Weights:** 400(regular), 700(bold), 800(extrabold), 900(black)
+
+<Typeset
+  fontSizes={[12, 14, 16, 24, 32]}
+  fontWeight={400}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>

@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true
+  },
+  "exclude": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/__tests__/*",
+    "src/**/stories.ts",
+    "src/**/stories.tsx",
+    "src/**/*.stories.ts",
+    "src/**/*.stories.tsx",
+    "src/setupTests.ts",
+    "dist"
+  ]
+}

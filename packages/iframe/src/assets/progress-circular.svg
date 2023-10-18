@@ -1,0 +1,11 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="asset/loading/dark">
+<path id="Ellipse 8" d="M17.0832 10.0003C17.0832 6.08831 13.9119 2.91699 9.99984 2.91699C6.08782 2.91699 2.9165 6.08831 2.9165 10.0003C2.9165 13.9123 6.08782 17.0837 9.99984 17.0837" stroke="url(#paint0_angular_2410_5029)" stroke-width="3"/>
+</g>
+<defs>
+<radialGradient id="paint0_angular_2410_5029" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9.99984 10.0003) rotate(90) scale(7.08333)">
+<stop stop-color="#195DEE"/>
+<stop offset="1" stop-color="#195DEE" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
